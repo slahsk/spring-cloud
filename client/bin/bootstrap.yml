@@ -1,7 +1,12 @@
 spring:
   application:
     name: spring-cloud-eureka-client
-      
+  profiles:
+    active: dev
+  cloud:
+    config:
+      uri: http://localhost:8081
+
 server:
   port: 8082
   
