@@ -6,6 +6,12 @@ spring:
   cloud:
     config:
       uri: http://localhost:8081
+      name : demo
+
+management:
+  security:
+    enabled: false
+
 
 server:
   port: 8082
@@ -18,4 +24,6 @@ eureka:
     preferIpAddress: true
     
 
-    
+logging:
+  level:
+    org.springframework.web: DEBUG

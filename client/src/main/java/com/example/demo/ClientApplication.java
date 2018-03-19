@@ -18,12 +18,17 @@ public class ClientApplication {
 		SpringApplication.run(ClientApplication.class, args);
 	}
 	
-    @Value("${message:demo.author}")
+    @Value("${demo.author}")
     private String message;
 
     
     @RequestMapping("/")
     public String greeting() {
         return "Hello from EurekaClient!" + message;
+    }
+    
+    @RequestMapping("/test")
+    public String test() {
+        return "test";
     }
 }
