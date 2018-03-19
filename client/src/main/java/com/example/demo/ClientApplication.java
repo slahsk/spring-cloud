@@ -26,9 +26,4 @@ public class ClientApplication {
     public String greeting() {
         return "Hello from EurekaClient!" + message;
     }
-    
-    @RequestMapping("/test")
-    public String test() {
-        return "test";
-    }
 }
