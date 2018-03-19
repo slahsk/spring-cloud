@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="client/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="config/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="eureka/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="output" path="client/bin"/>
+</classpath>
