@@ -1,1 +1,1 @@
-include 'client', 'config', 'eureka'
+include 'client', 'config', 'eureka', 'gateway'
